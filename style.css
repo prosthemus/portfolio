@@ -1,0 +1,36 @@
+body {
+    font-family: Consolas, monaco, monospace;
+    background-color: black;
+    color: white;
+}
+.ascii-art {
+    white-space: pre;
+    line-height: 1;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+    font-size: large;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: inherit;
+    font-size: larger;
+}
+.title-custom {
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+}
+.content {
+    font-size: 1.5rem;
+}
+.cursor {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+            opacity: 0;
+        }
+}
