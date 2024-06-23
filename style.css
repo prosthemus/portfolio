@@ -19,12 +19,12 @@ a:hover {
     font-size: larger;
 }
 .title-custom {
-    font-size: 2rem;
+    font-size: xx-large;
     color: black;
     background-color: white;
 }
 .content {
-    font-size: 1.5rem;
+    font-size: large;
 }
 .cursor {
     animation: blinker 1s linear infinite;
@@ -33,4 +33,9 @@ a:hover {
     50% {
             opacity: 0;
         }
+}
+.download {
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid white;
 }
